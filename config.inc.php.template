@@ -1,0 +1,33 @@
+<?php
+
+define("DEBUG", false);
+
+// DNS_DOMAIN is the default domain where DNS Updates take place
+define("DNS_DOMAIN","template.domainname");
+
+// PUSHOVER_ENABLED: Enable or disable Pushover integration
+// PUSHOVER_TOKEN: Pushover API token
+// PUSHOVER_DESTINATION: Pushover destination group/token for update messages
+define("PUSHOVER_ENABLED", true);
+define("PUSHOVER_TOKEN","");
+define("PUSHOVER_DESTINATION","");
+
+// TransIP API settings have to be configured at:
+// ./includes/classes/transip/ApiSettings.php
+
+// This array defines the token, als key and the associated subdomain as value.
+// Add more subdomains / tokens yb extending the array below based on the following template
+//
+// "<token>" => "<subdomain>",
+//
+// Do NOT forget the comma at the end of the line, this will break the array
+//
+
+$DNS_ARRAY = array(
+	"token1" => "subdomain1",
+	"token2" => "subdomain2",
+);
+
+define("DNS_ARRAY", $DNS_ARRAY);
+
+?>
