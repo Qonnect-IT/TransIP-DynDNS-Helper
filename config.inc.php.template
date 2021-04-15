@@ -5,6 +5,12 @@ define("DEBUG", false);
 // DNS_DOMAIN is the default domain where DNS Updates take place
 define("DNS_DOMAIN","template.domainname");
 
+// DNS_CONTACT contact emailaddress for use in contact page
+define("DNS_CONTACT", "emailaddress");
+
+// URL Where DynDNS app can be found (for use in CRONTABS)
+define("DYNDNS_URL", "");
+
 // PUSHOVER_ENABLED: Enable or disable Pushover integration
 // PUSHOVER_TOKEN: Pushover API token
 // PUSHOVER_DESTINATION: Pushover destination group/token for update messages
