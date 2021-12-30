@@ -1,9 +1,7 @@
 # TransIP-DynDNS-Helper
 A TransIP Dynamic DNS helper
 
-```
-This project has been replaced by [TransIP-DynDNS-Helper-REST](https://github.com/Qonnect-IT/TransIP-DynDNS-Helper-REST), in order to comply with TransIP's REST requirements (effective from early 2022)
-```
+> This project has been replaced by [TransIP-DynDNS-Helper-REST](https://github.com/Qonnect-IT/TransIP-DynDNS-Helper-REST), in order to comply with TransIP's REST requirements (effective from early 2022)
 
 This project can be used to automaticly update DNS Subdomain records via the TransIP API by utilizing a Cronjob on a remote device to "call in" the external IP address for that device.
 Optional, Pushover can be used to send a message if there was a change in IP Address.
